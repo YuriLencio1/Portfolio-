@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.Guias {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Pixel Square Bold10', sans-serif;
+}
+
+.Guias ul {
+    list-style: none;
+    display: flex;
+}
+
+.Guias li {
+    margin: 0 15px;
+}
+
+.Guias a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Guias a:hover {
+    text-decoration: underline;
+}
+
+.profile-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #282828;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+
+.profile-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 2;
+}
+
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+
+}
+
+
+.profile-image {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 180px;
+    
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info {
+    flex: 2;
+}
+
+.profile-info h1,
+.profile-info h2 {
+    margin: 0;
+}
+
+.profile-info h1 {
+    font-size: 2em;
+    color: white;
+}
+
+.profile-info h2 {
+    font-size: 1.5em;
+    color: #a5a5a5;
+}
+
+.profile-info p {
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #c5c5c5;
+}
+
+/* Ícones sociais */
+.social-icons {
+    display: flex;
+    margin-top: 1px;
+    
+}
+
+.social-icons img {
+    background-color: #393F4A;
+    border-radius: 19px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+.social-icons a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2) rotate(5deg);
+    filter: brightness(1.4);
+}
+
+.trabalho-container,
+.linguagens-container {
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.linguagens-container {
+    margin-top: 100px;
+}
+
+.linguagens-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.imagensP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagensP img {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 80px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Pixel Square Bold10';
+    src: url('fonts/Pixel\ Square\ Bold10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3{
+    font-family: 'Pixel Square Bold10', sans-serif;
+}
+
